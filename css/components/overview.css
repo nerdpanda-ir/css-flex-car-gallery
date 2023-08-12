@@ -1,0 +1,22 @@
+@import url("overview/responsive.css");
+#overview-container {
+    display: flex;
+}
+#overview-image {
+    order: 1;
+    flex-grow: 1;
+}
+#overview-image img {
+    width: 100%;
+    height: 100%;
+}
+#overview-describe {
+    order: 0;
+    width:82%;
+    padding: 0 25px;
+    align-self: center;
+}
+#overview-describe h3 {
+    font-size: 35px;
+    text-align: center;
+}

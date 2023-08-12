@@ -1,0 +1,19 @@
+@media only screen and (min-width: 0) and (max-width: 472px) {
+
+    #about-image {
+        order: 1;
+        width: 100% !important;
+        margin-left: unset !important;
+        margin-top: 25px;
+    }
+    #about-describe {
+        order: 0;
+        width: 100% !important;
+    }
+    #about-describe h3 {
+        font-size: 26px !important;
+    }
+    #about-describe p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,8 @@
+@media only screen and (min-width: 0) and (max-width: 472px) {
+    #team>ul>li {
+        width: 70% !important;
+    }
+    #team>ul>li{
+        margin-bottom: 50px !important;
+    }
+}

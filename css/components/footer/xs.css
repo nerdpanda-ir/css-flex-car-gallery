@@ -1,0 +1,14 @@
+@media only screen and (min-width: 473px) and (max-width: 575px) {
+    #footer-column-container {
+        align-items: center;
+        flex-direction: column;
+    }
+    #footer-column-container .footer-column {
+        width: 80% !important;
+        margin-bottom: 40px;
+    }
+    #footer-column-container .footer-column #badge-container img {
+        width: 70%;
+    }
+
+}

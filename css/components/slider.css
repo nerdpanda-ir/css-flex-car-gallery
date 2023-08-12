@@ -1,0 +1,20 @@
+@import url("slider/responsive.css");
+#slider {
+    height: 555px;
+    background-image: url("../../img/pic2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#slider-content {
+    width: 65%;
+    padding: 35px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
+#slider-content h2 {
+    text-align: center;
+}

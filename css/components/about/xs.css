@@ -1,0 +1,14 @@
+@media only screen and (min-width: 473px) and (max-width: 575px) {
+
+    #about-image {
+        order: 1;
+        width: 100% !important;
+        margin-left: unset !important;
+        margin-top: 25px;
+
+    }
+    #about-describe {
+        order: 0;
+        width: 100% !important;
+    }
+}

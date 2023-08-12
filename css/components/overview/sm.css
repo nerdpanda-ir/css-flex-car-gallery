@@ -1,0 +1,9 @@
+@media only screen and (min-width: 576px ) and (max-width: 767px){
+    #overview-container {
+        flex-wrap: wrap;
+    }
+    #overview-describe {
+        width: 100% !important;
+        margin-bottom: 25px;
+    }
+}

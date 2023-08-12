@@ -1,0 +1,37 @@
+@media only screen and (min-width: 0) and (max-width: 472px) {
+    nav#topNav {
+        flex-direction: column;
+        height: auto !important;
+    }
+    #nav-info-container {
+        order: 0 ;
+        flex-direction: column !important;
+    }
+    #nav-info-container img {
+        margin: 10px 0;
+        width: 75px !important;
+        height: 75px !important;
+    }
+    #nav-info-container h1 {
+        text-align: center;
+        font-size: 28px;
+        line-height: unset;
+    }
+    nav#topNav ul {
+        margin-left: unset;
+        order: 1;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav#topNav ul li {
+        margin-left: unset;
+    }
+    nav#topNav ul a {
+        padding: unset;
+        font-size: 18px;
+        text-align: center;
+    }
+    nav#topNav ul a i {
+        font-size: 20px;
+    }
+}

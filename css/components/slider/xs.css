@@ -1,0 +1,8 @@
+@media only screen and (min-width: 473px) and (max-width: 575px) {
+    #slider-content h2 {
+        font-size: 14px !important;
+    }
+    #slider-content p {
+        font-size: 12px;
+    }
+}

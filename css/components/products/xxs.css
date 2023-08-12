@@ -1,0 +1,26 @@
+@media only screen and (min-width: 0) and (max-width: 472px) {
+    #products ul li {
+        width: 90% !important;
+    }
+    #products .product-footer ul li:first-child {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    #products .product-footer ul li:nth-child(2){
+        display: flex;
+        justify-content: flex-end;
+    }
+    #products .product-footer ul li a.product-view-button {
+        width: 100%;
+        font-size: 14px;
+        text-align: center !important;
+    }
+    #products .product-footer ul li a i {
+        font-size: 16px !important;
+        margin-left: 5px !important;
+
+    }
+
+
+}

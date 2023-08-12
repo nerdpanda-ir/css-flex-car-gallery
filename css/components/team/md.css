@@ -1,0 +1,11 @@
+@media only screen and (min-width: 768px) and (max-width:  991px) {
+    #team>ul>li {
+        width: 30% !important;
+    }
+    #team>ul>li img {
+        height: 280px !important;
+    }
+    #team>ul>li:nth-child(3n){
+        margin-bottom: 50px;
+    }
+}

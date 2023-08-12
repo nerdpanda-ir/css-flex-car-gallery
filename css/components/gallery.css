@@ -1,0 +1,23 @@
+@import url("gallery/responsive.css");
+
+#gallery-container ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: unset;
+}
+#gallery-container ul li {
+    width: 30%;
+    height: 250px;
+    margin-bottom: 35px;
+}
+#gallery-container ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: filter 500ms linear;
+    filter: grayscale(100%) blur(2px);
+}
+#gallery-container ul li:hover img {
+    filter: grayscale(0%) blur(0px);
+}

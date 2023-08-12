@@ -1,0 +1,8 @@
+@media only screen and (min-width: 576px ) and (max-width: 767px){
+    #gallery-container ul {
+        justify-content: space-evenly !important;
+    }
+    #gallery-container ul li {
+        width: 40% !important;
+    }
+}

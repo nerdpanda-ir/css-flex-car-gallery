@@ -1,0 +1,28 @@
+@media only screen and (min-width: 576px ) and (max-width: 767px){
+    nav#topNav {
+        flex-direction: column;
+        height: auto !important;
+
+    }
+    #nav-info-container {
+        justify-content: center;
+        order: 0;
+    }
+    nav#topNav ul {
+        margin-left: unset;
+        order: 1;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav#topNav ul li {
+        margin-left: unset;
+    }
+    nav#topNav ul a {
+        padding: unset;
+        font-size: 18px;
+        text-align: center;
+    }
+    nav#topNav ul a i {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,75 @@
+@import url("contactUs/responsive.css");
+#contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#contact-us h3 {
+    width: 100%;
+}
+#contact-us form {
+    width: 80%;
+}
+#contact-us .field-container {
+    display: flex;
+    margin-bottom: 35px;
+    position: relative;
+}
+#contact-us form .field-container label {
+    font-size: 18px;
+    min-width: 20%;
+    align-self: center;
+}
+#contact-us form .field-container label i {
+    font-size: 22px;
+    margin-left: 15px;
+}
+#contact-us form .field-container input[type='text'] ,
+#contact-us form .field-container select  {
+    padding-bottom: 5px;
+}
+#contact-us form .field-container input[type='text'] ,
+#contact-us form .field-container select ,
+#contact-us form .field-container textarea
+{
+    color: inherit;
+    flex-grow: 1;
+    height: 30px;
+    outline: unset;
+    border: unset;
+    border-bottom: 1px solid #0d7447;
+    background-color: transparent;
+}
+#contact-us form .field-container textarea {
+    height: 120px;
+    resize: vertical;
+}
+#contact-us form .form-control-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact-us form .form-control-container button {
+    line-height: 50px;
+    height: 50px;
+    padding: 0 35px;
+    border-radius: 3px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+#contact-us form .form-control-container button i {
+    font-size: 22px;
+    position: relative;
+    top: 4px;
+    margin-left: 10px;
+}
+#contact-us form .form-control-container button:hover {
+    cursor: pointer;
+}
+#contact-us form .form-control-container button:first-child {
+    background-color: #34b781;
+}
+#contact-us form .form-control-container button:nth-child(2){
+    background-color: #b4043f;
+}

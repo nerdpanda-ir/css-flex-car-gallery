@@ -1,0 +1,48 @@
+@import url("team/responsive.css");
+#team {
+    margin: 65px 0 72px 0;
+}
+#team>ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: unset;
+    justify-content: space-around;
+}
+#team>ul>li {
+    width: 20%;
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+}
+#team>ul>li:nth-child(4){
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+#team>ul>li>img {
+    width: 100%;
+    height: 300px;
+    border-radius: 100%;
+}
+#team>ul>li>h5 {
+    font-size: 30px;
+    margin: 12px 0 0 0 ;
+}
+#team>ul>li>h6 {
+    margin: 0;
+    font-size: 18px;
+}
+#team>ul>li>h5,#team>ul>li>h6 {
+    text-align: center;
+}
+#team>ul>li>ul {
+    padding: unset;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#team>ul>li>ul a {
+    display: block;
+}
+#team>ul>li>ul a i {
+    font-size: 27px;
+}

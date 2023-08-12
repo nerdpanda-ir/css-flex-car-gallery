@@ -1,1 +1,5 @@
 @import url("font-classes/font-classes.css");
+.head-title {
+    font-size: 35px;
+    text-align: center;
+}

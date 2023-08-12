@@ -1,0 +1,45 @@
+@import url("footer/responsive.css");
+footer#page-footer {
+    margin-top: 85px;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+#footer-column-container {
+    display: flex;
+    justify-content: space-around;
+}
+#page-footer .footer-column {
+    width: 30%;
+}
+footer#page-footer .footer-column h6 {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+
+#page-footer #quick-access nav ul {
+    padding: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#page-footer #quick-access nav ul li {
+    width: 40%;
+}
+#page-footer #quick-access nav ul li a {
+    padding: unset;
+    text-align: center;
+}
+#page-footer #footer-copyright {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+#badge-container {
+    text-align: center;
+}
+#badge-container img {
+    width: 60%;
+}

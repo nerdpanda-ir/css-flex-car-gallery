@@ -1,0 +1,15 @@
+@media only screen and (min-width: 0) and (max-width: 472px) {
+    #overview-container {
+        flex-wrap: wrap;
+    }
+    #overview-describe {
+        width: 100% !important;
+        margin-bottom: 25px;
+    }
+    #overview-describe h3 {
+        font-size: 26px !important;
+    }
+    #overview-describe p {
+        font-size: 15px !important;
+    }
+}

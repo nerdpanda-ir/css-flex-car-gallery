@@ -1,0 +1,69 @@
+@import url("products/responsive.css");
+#products {
+}
+#products>ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 0;
+}
+#products>ul>li {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    width: 30%;
+    background-color: #121212;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#products ul li .product-image-container {
+    border-radius: 6px 6px 0 0 ;
+    height: 250px;
+}
+#products ul li .product-image-container img {
+    border-radius: 6px 6px 0 0 ;
+    width: 100%;
+    height: 100%;
+}
+#products ul li .product-content-container {
+    padding: 10px;
+    box-sizing: border-box;
+}
+#products ul li .product-content-container h4{
+    text-indent: 15px;
+    font-size: 18px;
+}
+#products ul li .product-content-container p {
+    font-size: 15px;
+}
+#products ul li .product-footer {
+    background-color: black;
+    min-height: 50px;
+}
+#products ul li .product-footer ul {
+    min-height: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 ;
+}
+#products ul li .product-footer ul li {
+    line-height: 50px;
+}
+#products ul li .product-footer ul li:first-child {
+    padding: 0 15px;
+}
+#products ul li .product-footer ul li a.product-view-button {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 20px;
+}
+#products ul li .product-footer ul li a.product-view-button i {
+    font-size: 20px;
+    transform: translateY(2px);
+    margin-left: 10px;
+}
+

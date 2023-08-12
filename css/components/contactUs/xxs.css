@@ -1,0 +1,20 @@
+@media only screen and (min-width: 0) and (max-width: 472px) {
+    #contact-us form .field-container {
+        flex-direction: column;
+    }
+    #contact-us form .field-container label {
+        align-self: flex-start !important;
+        margin-bottom: 25px;
+    }
+    .form-control-container {
+        flex-direction: column;
+        justify-content: unset !important;
+    }
+    .form-control-container button {
+        margin-bottom: 25px;
+    }
+    .form-control-container button:last-child {
+        margin-bottom: unset;
+    }
+
+}
